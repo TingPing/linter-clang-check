@@ -2,7 +2,7 @@
   "name": "linter-clang-check",
   "main": "./lib/main",
   "version": "4.0.0",
-  "description": "Lint C-based files using clang",
+  "description": "Lint C-based files using clang-check",
   "repository": {
     "type": "git",
     "url": "https://github.com/TingPing/linter-clang-check"
