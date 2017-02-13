@@ -9,7 +9,7 @@ describe('The Clang provider for AtomLinter', () => {
   const lint = require('../lib/main').provideLinter().lint;
 
   beforeEach(() => {
-    waitsForPromise(() => atom.packages.activatePackage('linter-clang'));
+    waitsForPromise(() => atom.packages.activatePackage('linter-clang-check'));
   });
 
   it('finds nothing wrong with a valid file', () => {
