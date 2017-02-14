@@ -1,0 +1,6 @@
+{
+  "globals": {
+    "atom": true
+  },
+  "esversion": 6
+}
